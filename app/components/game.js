@@ -55,7 +55,7 @@ const Game = () => {
     <article className="w-full px-5 lg:w-1/2">
       <section className="rounded-lg bg-red-600 p-8">
         <h2 className="text-center mb-2 text-2xl font-black text-white">
-          Who{"'"}s that Pokemon?
+          Who&#39;s that Pokemon?
         </h2>
         <form onSubmit={handleSubmit}>
           <div className="flex justify-evenly items-center gap-5 flex-col lg:flex-row md:flex-row">
