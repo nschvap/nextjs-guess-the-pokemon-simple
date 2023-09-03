@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filtered {
+    image-rendering: pixelated;;
+}
+
+.normal {
+    background-color: #A8A77A;
+    color: #333333;
+  }
+  
+  .fire {
+    background-color: #EE8130;
+    color: #333333;
+  }
+  
+  .water {
+    background-color: #6390F0;
+    color: #333333;
+  }
+  
+  .grass {
+    background-color: #7AC74C;
+    color: #333333;
+  }
+  
+  .electric {
+    background-color: #F7D02C;
+    color: #333333;
+  }
+  
+  .ice {
+    background-color: #96D9D6;
+    color: #333333;
+  }
+  
+  .fighting {
+    background-color: #C22E28;
+    color: #333333;
+  }
+  
+  .poison {
+    background-color: #A33EA1;
+    color: #333333;
+  }
+  
+  .ground {
+    background-color: #E2BF65;
+    color: #333333;
+  }
+  
+  .flying {
+    background-color: #A98FF3;
+    color: #333333;
+  }
+  
+  .psychic {
+    background-color: #F95587;
+    color: #333333;
+  }
+  
+  .bug {
+    background-color: #A6B91A;
+    color: #333333;
+  }
+  
+  .rock {
+    background-color: #B6A136;
+    color: #333333;
+  }
+  
+  .ghost {
+    background-color: #735797;
+    color: #333333;
+  }
+  
+  .steel {
+    background-color: #B7B7CE;
+    color: #333333;
+  }
+  
+  .dragon {
+    background-color: #6F35FC;
+    color: #333333;
+  }
+  
+  .dark {
+    background-color: #705746;
+    color: #FFFFFF;
+  }
+  
+  .fairy {
+    background-color: #D685AD;
+    color: #333333;
+  }
+  
