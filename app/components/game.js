@@ -49,12 +49,14 @@ const Game = () => {
     fetchAnotherPokemon();
   };
 
-  if(reloading) return <Spinner />
+  if (reloading) return <Spinner />;
 
   return pokemon.name ? (
     <article className="w-full px-5 lg:w-1/2">
       <section className="rounded-lg bg-red-600 p-8">
-        <h2 className="text-center mb-2 text-2xl font-black text-white">Who's that Pokemon?</h2>
+        <h2 className="text-center mb-2 text-2xl font-black text-white">
+          Who{"'"}s that Pokemon?
+        </h2>
         <form onSubmit={handleSubmit}>
           <div className="flex justify-evenly items-center gap-5 flex-col lg:flex-row md:flex-row">
             <div className="bg-gradient-to-b from-sky-400 to-sky-500 rounded-lg flex justify-between items-center">
